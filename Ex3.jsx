@@ -1,8 +1,9 @@
-import React, { useState} from 'react'
-// state => internal variable of react, number,string,boolean,object,Array
-function Ex1(props) {
+import React, { useState } from 'react'
+
+
+const Ex3 = function(props) {
     // useState => react hook
-    // const [state handler] = useState (initial value)
+    //const [state, handler] = useState(initial value)
 
     const [x, setX] = useState(123)
     const [title, setTitle] = useState("Welcome to react")
@@ -39,4 +40,4 @@ function Ex1(props) {
     )
 }
 
-export default Ex1
+export default Ex3
